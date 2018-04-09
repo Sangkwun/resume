@@ -7,7 +7,7 @@ var data = {
       period: "2017.09 - present",
       description:
         "Unbanked를 위한 대신결제 서비스인 '결제를 부탁해' 기획 및 개발. NodeJS, Angular, ReactJS 를 이용하여 서버, 웹 등을 구현",
-      image: [require("./images/2.gif")],
+      image: [require("./images/2.gif"), require("./images/request.png")],
       bullet: [
         "서버: NodeJS Express, 서비스페이지: Angular JS, 관리자페이지: React JS",
         <a href="http://instead-corp.com/"> 인스테드 홈페이지</a>,
@@ -34,7 +34,7 @@ var data = {
       image: [require("./images/4.jpeg"), require("./images/brake.gif")],
       bullet: [
         "HILS(Hardware in loop system) 시뮬레이션 장비 설계",
-        "국내, 중국 차종 설계 / 기술개발 프로젝트 PM",
+        "국내, 중국 차종 설계 / 기술개발 프로젝트 PM"
       ]
     },
     {
@@ -93,9 +93,7 @@ var data = {
         "강남 근처의 20개 카페를 Instagram 크롤링으로 22000장을 추출하여 2000장으로 필터링(음식, 사람 사진 제외)",
         "VGG-19 모델을 기반으로 이미지를 학습하여 입력한 사진을 분류하여 가능성이 높은 카페를 추천하며 정보를 제공",
         "백엔드에는 Keras와 Django를 이용하였으며 Front에는 React를 사용",
-        < a href = "https://github.com/Sangkwun/caffe_concierge">
-        Link to Github</a>
-
+        <a href="https://github.com/Sangkwun/caffe_concierge">Link to Github</a>
       ]
     },
     {
@@ -151,29 +149,34 @@ var data = {
     {
       title: "Udacity Machine Learning Nanodegree",
       period: "2015.3 - 2015.7",
-      description:
-        "MOOC 중 하나로 Udacity에서 머신러닝 코스를 수료",
+      description: "MOOC 중 하나로 Udacity에서 머신러닝 코스를 수료",
       image: [],
       bullet: [
         "Chapter별 프로젝트 및 Capstone프로젝트를 멘토의 지도하에 진행",
 
-        <a href = "https://github.com/Sangkwun/boston_housing" >
-        Machine Learning Foundation: Predicting Boston Housing Prices</a>,
+        <a href="https://github.com/Sangkwun/boston_housing">
+          Machine Learning Foundation: Predicting Boston Housing Prices
+        </a>,
 
-        < a href = "https://github.com/Sangkwun/finding_donors" >
-        Supervised Learning : Finding donors for CharityML</a>,
+        <a href="https://github.com/Sangkwun/finding_donors">
+          Supervised Learning : Finding donors for CharityML
+        </a>,
 
-        < a href = "https://github.com/Sangkwun/customer_segments" >
-        Unsupervised Learing : Creating Customer Segments</a>,
+        <a href="https://github.com/Sangkwun/customer_segments">
+          Unsupervised Learing : Creating Customer Segments
+        </a>,
 
-        < a href = "https://github.com/Sangkwun/smartcab" >
-        Reinforcement Learning : Train a Smartcab to Drive</a>,
+        <a href="https://github.com/Sangkwun/smartcab">
+          Reinforcement Learning : Train a Smartcab to Drive
+        </a>,
 
-        < a href = "https://github.com/Sangkwun/dog_breed" >
-        Deep Learning : Dog Breed Classifier</a>,
+        <a href="https://github.com/Sangkwun/dog_breed">
+          Deep Learning : Dog Breed Classifier
+        </a>,
 
-        < a href = "https://drive.google.com/file/d/1MGNa3aePvLgWKybcal1IMoREtPX6pEfR/view?usp=sharing">
-        Capstone Project : Sales forecasting by Machine learning</a>
+        <a href="https://drive.google.com/file/d/1MGNa3aePvLgWKybcal1IMoREtPX6pEfR/view?usp=sharing">
+          Capstone Project : Sales forecasting by Machine learning
+        </a>
       ]
     },
     {
