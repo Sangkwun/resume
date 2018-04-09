@@ -28778,7 +28778,7 @@ var _App2 = _interopRequireDefault(_App);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 _reactDom2.default.render(_react2.default.createElement(_App2.default, null), document.getElementById("app"));
-},{"react":3,"react-dom":4,"./src/App":7}],103:[function(require,module,exports) {
+},{"react":3,"react-dom":4,"./src/App":7}],106:[function(require,module,exports) {
 
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -28947,5 +28947,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[103,2])
+},{}]},{},[106,2])
 //# sourceMappingURL=/cv.2d3c5119.map
