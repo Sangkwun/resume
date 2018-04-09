@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "proxy": "https://sangkwun.github.io/resume/",
+  "homepage": "https://sangkwun.me",
   "dependencies": {
     "autoprefixer": "^8.2.0",
     "postcss-modules": "^1.1.0",
@@ -19,7 +21,6 @@
   },
   "scripts": {
     "start": "parcel index.html",
-    "deploy" : "parcel index.html && gh-pages -d build"
-  },
-  "homepage": "https://Sangkwun.github.io/resume"
+    "deploy": "parcel build index.html && gh-pages -d dist"
+  }
 }
