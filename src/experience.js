@@ -148,7 +148,7 @@ var data = {
   education: [
     {
       title: "Udacity Machine Learning Nanodegree",
-      period: "2015.3 - 2015.7",
+      period: "2017.3 - 2017.10",
       description: "MOOC 중 하나로 Udacity에서 머신러닝 코스를 수료",
       image: [],
       bullet: [
@@ -183,11 +183,11 @@ var data = {
       title: "UNIST 기계및신소재공학부 졸업",
       period: "2010.3 - 2016.2",
       description:
-        "접이식 매대 디자인 고안 및 제작 후 언양 시장 리디자인 프로젝트참여",
+        "UNIST 이공계 특성화 대학교",
       image: [],
       bullet: [
         "1트랙 : Mechanical system design & manufacturing",
-        "2트랙 : Engineering system design"
+        "2트랙 : Engineering system design",
       ]
     }
   ]
