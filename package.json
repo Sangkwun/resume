@@ -8,9 +8,11 @@
   "dependencies": {
     "autoprefixer": "^8.2.0",
     "postcss-modules": "^1.1.0",
-    "react": "^16.3.1",
+    "react": ">=15",
     "react-dom": "^16.3.1",
-    "react-ionicons": "^2.1.6"
+    "react-ionicons": "^2.1.6",
+    "react-router-dom": "^4.2.2",
+    "reset-css": "^3.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

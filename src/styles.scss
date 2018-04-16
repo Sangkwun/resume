@@ -1,13 +1,21 @@
+@import "./_mixins.scss";
+@import '../node_modules/reset-css/reset.css';
+body{
+    
+}
 .container {
     display: flex;
     flex-flow: column;
     padding: 10px;
     padding-left: 20%;
     padding-right: 20%;
+
     .box{
+        display: flex;
+        flex-flow: row;
+
         margin-top: 50px;
         padding: 5px;
-
 
         .title{
             font-size: 20px;
@@ -24,6 +32,23 @@
                 .icon{
                     margin-right: 5px;
                 }
+            }
+        }
+        .split{
+            margin-left: auto;
+
+            .lang {
+                display: flex;
+                margin-left: auto;
+                font-size: 12px;
+                span{
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    :last-child{
+                        margin-right: 0px;
+                    }
+                }
+                
             }
         }
     }

@@ -1,42 +1,95 @@
 import React,{ Component } from 'react';
 import styles from './styles.scss';
 import data from './experience';
+import data_eng from './experience_eng';
 import Ionicon from 'react-ionicons';
 import imageURL from './images/1.jpg';
 
-const App = () => {
-  console.log(data);
+class App extends Component {
+  constructor() {
+    super()
+    this.state = {
+      lang: "ko"
+    }
+
+    this._changeLang = (event) => {
+      const lang = event.target.innerText;
+  
+      if(lang==="English"){
+        this.setState({ lang: "eng" });
+      }else{
+        this.setState({lang: "ko"})
+      }
+      console.log(this.state)
+    }
+  }
+  componentDidMount(){
+    if (document.location.pathname === "/eng") {
+      this.setState({ lang: "eng" });
+    }
+  }
+  render(){
+    if(this.state.lang==="eng"){
+      return <English changeLang={this._changeLang} lang={this.state.lang}/>;
+    }else{
+      return <Korean changeLang={this._changeLang} lang={this.state.lang} />;
+    }
+  }
+}
+
+const English = (props) => {
   return <div className={styles.container}>
-      <Personal />
+      <Personal changeLang={props.changeLang} lang={props.lang} />
+      <Category title="Experience" data={data_eng.experience} />
+      <Category title="Others" data={data_eng.side} />
+      <Category title="Education" data={data_eng.education} />
+    </div>;
+}
+const Korean = (props) => {
+  return <div className={styles.container}>
+      <Personal changeLang={props.changeLang} lang={props.lang} />
       <Category title="Experience" data={data.experience} />
       <Category title="Others" data={data.side} />
       <Category title="Education" data={data.education} />
     </div>;
-};
-
-const Personal = () => {
+}
+const Personal = (props) => {
   return <div className={styles.box}>
-      <div className={styles.title}> Kang Sangkwun </div>
-      <div className={styles.content}>
-        <div className={styles.row}>
-          <Ionicon className={styles.icon} icon="ios-mail" />wer2774@gmail.com
-        </div>
-        <div className={styles.row}>
-          <Ionicon className={styles.icon} icon="logo-github" />
-          <a href="https://github.com/Sangkwun">
-            {" "}
-            https://github.com/Sangkwun
-          </a>
-        </div>
-        <div className={styles.row}>
-          <Ionicon className={styles.icon} icon="ios-book" />
-          <a href="https://drive.google.com/open?id=0B5qiEf3hIRkNUzl0TnN4S2x3Yk0">
-            {" "}
-            Design Portfolio
-          </a>
+      <div>
+        <div className={styles.title}> Kang Sangkwun </div>
+        <div className={styles.content}>
+          <div className={styles.row}>
+            <Ionicon className={styles.icon} icon="ios-mail" />wer2774@gmail.com
+          </div>
+          <div className={styles.row}>
+            <Ionicon className={styles.icon} icon="logo-github" />
+            <a href="https://github.com/Sangkwun">
+              {" "}
+              https://github.com/Sangkwun
+            </a>
+          </div>
+          <div className={styles.row}>
+            <Ionicon className={styles.icon} icon="ios-book" />
+            <a href="https://drive.google.com/open?id=0B5qiEf3hIRkNUzl0TnN4S2x3Yk0">
+              {" "}
+              Design Portfolio
+            </a>
+          </div>
         </div>
       </div>
+      <div className={styles.split}>
+        <Lang changeLang={props.changeLang} lang={props.lang}/>
+      </div>
     </div>;
+};
+
+const Lang = (props) => {
+  return (
+    <div className={styles.lang}>
+      <span onClick={props.changeLang} >English</span>|
+      <span onClick={props.changeLang} >Korean</span>
+    </div>
+  );
 };
 
 const Category = (props) => {
