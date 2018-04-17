@@ -154,15 +154,15 @@ var data = {
       bullet: [
         "Chapter별 프로젝트 및 Capstone프로젝트를 멘토의 지도하에 진행",
 
-        <a href="https://github.com/Sangkwun/boston_housing">
+        <a href="https://github.com/Sangkwun/boston_housing/blob/master/boston_housing.ipynb">
           Machine Learning Foundation: Predicting Boston Housing Prices
         </a>,
 
-        <a href="https://github.com/Sangkwun/finding_donors">
+        <a href="https://github.com/Sangkwun/finding_donors/blob/master/finding_donors.ipynb">
           Supervised Learning : Finding donors for CharityML
         </a>,
 
-        <a href="https://github.com/Sangkwun/customer_segments">
+        <a href="https://github.com/Sangkwun/customer_segments/blob/master/customer_segments.ipynb">
           Unsupervised Learing : Creating Customer Segments
         </a>,
 
@@ -170,7 +170,7 @@ var data = {
           Reinforcement Learning : Train a Smartcab to Drive
         </a>,
 
-        <a href="https://github.com/Sangkwun/dog_breed">
+        <a href="https://github.com/Sangkwun/dog_breed/blob/master/dog_app.ipynb">
           Deep Learning : Dog Breed Classifier
         </a>,
 
@@ -182,12 +182,11 @@ var data = {
     {
       title: "UNIST 기계및신소재공학부 졸업",
       period: "2010.3 - 2016.2",
-      description:
-        "UNIST 이공계 특성화 대학교",
+      description: "UNIST 이공계 특성화 대학교",
       image: [],
       bullet: [
         "1트랙 : Mechanical system design & manufacturing",
-        "2트랙 : Engineering system design",
+        "2트랙 : Engineering system design"
       ]
     }
   ]

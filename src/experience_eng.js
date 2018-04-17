@@ -159,15 +159,15 @@ var data = {
       bullet: [
         "Each projects on chapter are conducted with instuction of mentors",
 
-        <a href="https://github.com/Sangkwun/boston_housing">
+        <a href="https://github.com/Sangkwun/boston_housing/blob/master/boston_housing.ipynb">
           Machine Learning Foundation: Predicting Boston Housing Prices
         </a>,
 
-        <a href="https://github.com/Sangkwun/finding_donors">
+        <a href="https://github.com/Sangkwun/finding_donors/blob/master/finding_donors.ipynb">
           Supervised Learning : Finding donors for CharityML
         </a>,
 
-        <a href="https://github.com/Sangkwun/customer_segments">
+        <a href="https://github.com/Sangkwun/customer_segments/blob/master/customer_segments.ipynb">
           Unsupervised Learing : Creating Customer Segments
         </a>,
 
@@ -175,7 +175,7 @@ var data = {
           Reinforcement Learning : Train a Smartcab to Drive
         </a>,
 
-        <a href="https://github.com/Sangkwun/dog_breed">
+        <a href="https://github.com/Sangkwun/dog_breed/blob/master/dog_app.ipynb">
           Deep Learning : Dog Breed Classifier
         </a>,
 
