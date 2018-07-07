@@ -1,5 +1,5 @@
 @import url("reset.9c7cb6dd.css");
-._container_1n3tc_2 {
+._container_1hch2_2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,7 +10,12 @@
   padding: 10px;
   padding-left: 20%;
   padding-right: 20%; }
-  ._container_1n3tc_2 ._box_1n3tc_8 {
+  @media (min-width: 320px) and (max-width: 450px) {
+    ._container_1hch2_2 {
+      padding-left: 5%;
+      padding-right: 5%;
+      padding: 10px; } }
+  ._container_1hch2_2 ._box_1hch2_13 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -20,39 +25,45 @@
             flex-flow: row;
     margin-top: 50px;
     padding: 5px; }
-    ._container_1n3tc_2 ._box_1n3tc_8 ._title_1n3tc_13 {
+    @media (min-width: 320px) and (max-width: 450px) {
+      ._container_1hch2_2 ._box_1hch2_13 {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column;
+                flex-flow: column; } }
+    ._container_1hch2_2 ._box_1hch2_13 ._title_1hch2_21 {
       font-size: 20px;
       font-weight: bold; }
-    ._container_1n3tc_2 ._box_1n3tc_8 ._content_1n3tc_16 {
+    ._container_1hch2_2 ._box_1hch2_13 ._content_1hch2_24 {
       margin-top: 10px; }
-      ._container_1n3tc_2 ._box_1n3tc_8 ._content_1n3tc_16 ._row_1n3tc_18 {
+      ._container_1hch2_2 ._box_1hch2_13 ._content_1hch2_24 ._row_1hch2_26 {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
         margin-top: 5px;
         font-size: 12px; }
-        ._container_1n3tc_2 ._box_1n3tc_8 ._content_1n3tc_16 ._row_1n3tc_18 ._icon_1n3tc_22 {
+        ._container_1hch2_2 ._box_1hch2_13 ._content_1hch2_24 ._row_1hch2_26 ._icon_1hch2_30 {
           margin-right: 5px; }
-    ._container_1n3tc_2 ._box_1n3tc_8 ._split_1n3tc_24 {
+    ._container_1hch2_2 ._box_1hch2_13 ._split_1hch2_32 {
       margin-left: auto; }
-      ._container_1n3tc_2 ._box_1n3tc_8 ._split_1n3tc_24 ._lang_1n3tc_26 {
+      ._container_1hch2_2 ._box_1hch2_13 ._split_1hch2_32 ._lang_1hch2_34 {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         margin-left: auto;
         font-size: 12px; }
-        ._container_1n3tc_2 ._box_1n3tc_8 ._split_1n3tc_24 ._lang_1n3tc_26 span {
+        ._container_1hch2_2 ._box_1hch2_13 ._split_1hch2_32 ._lang_1hch2_34 span {
           margin-left: 10px;
           margin-right: 10px; }
-          ._container_1n3tc_2 ._box_1n3tc_8 ._split_1n3tc_24 ._lang_1n3tc_26 span :last-child {
+          ._container_1hch2_2 ._box_1hch2_13 ._split_1hch2_32 ._lang_1hch2_34 span :last-child {
             margin-right: 0px; }
-  ._container_1n3tc_2 ._category_1n3tc_35 {
+  ._container_1hch2_2 ._category_1hch2_43 {
     border-top: 1px solid lightgray;
     padding-top: 20px;
     margin-top: 50px;
     font-size: 20px;
     color: orange; }
-  ._container_1n3tc_2 ._row_1n3tc_18 {
+  ._container_1hch2_2 ._row_1hch2_26 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -61,7 +72,7 @@
         -ms-flex-flow: row;
             flex-flow: row;
     margin-top: 20px; }
-    ._container_1n3tc_2 ._row_1n3tc_18 ._content_1n3tc_16 {
+    ._container_1hch2_2 ._row_1hch2_26 ._content_1hch2_24 {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -70,26 +81,42 @@
           -ms-flex-flow: column;
               flex-flow: column;
       width: 90%; }
-      ._container_1n3tc_2 ._row_1n3tc_18 ._content_1n3tc_16 ._title_1n3tc_13 {
+      ._container_1hch2_2 ._row_1hch2_26 ._content_1hch2_24 ._title_1hch2_21 {
         margin-right: 10px;
         font-size: 15px; }
-      ._container_1n3tc_2 ._row_1n3tc_18 ._content_1n3tc_16 ._period_1n3tc_52 {
+      ._container_1hch2_2 ._row_1hch2_26 ._content_1hch2_24 ._period_1hch2_60 {
         font-size: 12px;
         color: gray;
         margin-bottom: 5px; }
-      ._container_1n3tc_2 ._row_1n3tc_18 ._content_1n3tc_16 ._description_1n3tc_56 {
+      ._container_1hch2_2 ._row_1hch2_26 ._content_1hch2_24 ._description_1hch2_64 {
         font-size: 12px;
         margin-bottom: 5px; }
-    ._container_1n3tc_2 ._row_1n3tc_18 ._expand_1n3tc_59 {
+    ._container_1hch2_2 ._row_1hch2_26 ._expand_1hch2_67 {
       margin-left: auto; }
-  ._container_1n3tc_2 ._imageBox_1n3tc_61 {
+  ._container_1hch2_2 ._imageBox_1hch2_69 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-top: orange solid 2px;
     width: 100%;
     height: 100%;
-    padding: 10px; }
-    ._container_1n3tc_2 ._imageBox_1n3tc_61 ._images_1n3tc_68 {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto; }
+    @media (min-width: 320px) and (max-width: 450px) {
+      ._container_1hch2_2 ._imageBox_1hch2_69 {
+        width: 80%;
+        padding: 10px; } }
+    ._container_1hch2_2 ._imageBox_1hch2_69 ._images_1hch2_85 {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -100,10 +127,13 @@
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
-      ._container_1n3tc_2 ._imageBox_1n3tc_61 ._images_1n3tc_68 ._image_1n3tc_61 {
+      ._container_1hch2_2 ._imageBox_1hch2_69 ._images_1hch2_85 ._image_1hch2_69 {
         width: 400px;
         margin-top: 20px; }
-  ._container_1n3tc_2 ._bulletBox_1n3tc_75 {
+        @media (min-width: 320px) and (max-width: 450px) {
+          ._container_1hch2_2 ._imageBox_1hch2_69 ._images_1hch2_85 ._image_1hch2_69 {
+            width: 300px; } }
+  ._container_1hch2_2 ._bulletBox_1hch2_95 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -111,7 +141,7 @@
     -webkit-box-direction: normal;
         -ms-flex-flow: column;
             flex-flow: column; }
-    ._container_1n3tc_2 ._bulletBox_1n3tc_75 ._bullet_1n3tc_75 {
+    ._container_1hch2_2 ._bulletBox_1hch2_95 ._bullet_1hch2_95 {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -119,9 +149,9 @@
       -webkit-box-direction: normal;
           -ms-flex-flow: row;
               flex-flow: row;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
       font-size: 12px;
       margin-bottom: 5px; }
 
