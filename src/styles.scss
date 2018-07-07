@@ -1,5 +1,6 @@
 @import "./_mixins.scss";
 @import '../node_modules/reset-css/reset.css';
+
 body{
     
 }
@@ -10,9 +11,19 @@ body{
     padding-left: 20%;
     padding-right: 20%;
 
+    @include breakpoint("phone") {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding: 10px;
+    }
+
     .box{
         display: flex;
         flex-flow: row;
+
+        @include breakpoint("phone") {
+            flex-flow: column;
+        }
 
         margin-top: 50px;
         padding: 5px;
@@ -89,6 +100,9 @@ body{
         }
     }
     .imageBox{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         border-top: orange solid 2px;
@@ -96,8 +110,15 @@ body{
         height: 100%;
         // background-color: #dedede;
         padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
         // border-bottom-left-radius: 20px;
         // border-bottom-right-radius: 20px;
+        @include breakpoint("phone") {
+            width: 80%;
+            padding: 10px;
+        }
+
         .images{
             display: flex;
             flex-flow : column;
@@ -106,6 +127,9 @@ body{
             .image{
                 width: 400px;
                 margin-top: 20px;
+                @include breakpoint("phone") {
+                    width: 300px;
+                }
 
             }
         }
@@ -118,7 +142,7 @@ body{
         .bullet{
             display:flex;
             flex-flow: row;
-            align-items: center;
+            align-items: flex-start;
             font-size: 12px;
             margin-bottom: 5px;
         }

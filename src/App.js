@@ -158,7 +158,10 @@ const Bullets = props => {
     {props.bullet ?
       <div className={styles.bulletBox}>
         {props.bullet.map(bullet => (
-          <div className={styles.bullet}><Ionicon icon="ios-arrow-forward"/>{bullet}</div>
+          <div className={styles.bullet}>
+            <Ionicon fontSize="12px" icon="ios-arrow-forward"/>
+            {bullet}
+          </div>
         ))}
       </div>
     :null}

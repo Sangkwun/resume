@@ -3,15 +3,24 @@ import React from 'react';
 var data = {
   experience: [
     {
+      title: "Knowru: 백엔드 엔지니어",
+      period: "2018.05 - present",
+      description:
+        "Obejct detection 및 pedestrian attribute 모델, IoT Digital Signage 개발",
+      image: [],
+      bullet: [
+        "Computer vision: openCV, YOLO, Inception 등을 활용하여 사람을 감지하고 나이와 성별을 추출해냄",
+        "Oowa Signage: AWS IoT를 활용한 디지털사이니지 개발"
+      ]
+    },
+    {
       title: "인스테드: '결제를 부탁해' 기획 및 개발",
-      period: "2017.09 - present",
+      period: "2017.09 - 2018.04",
       description:
         "Unbanked를 위한 대신결제 서비스인 '결제를 부탁해' 기획 및 개발. NodeJS, Angular, ReactJS 를 이용하여 서버, 웹 등을 구현",
       image: [require("./images/2.gif"), require("./images/request.png")],
       bullet: [
-        "서버: NodeJS Express, 서비스페이지: Angular JS, 관리자페이지: React JS",
-        <a href="http://instead-corp.com/"> 인스테드 홈페이지</a>,
-        <a href="https://admin.instead.co.kr/"> 인스테드 관리자페이지</a>
+        "서버: NodeJS Express, 서비스페이지: Angular JS, 관리자페이지: React JS"
       ]
     },
     {
@@ -147,35 +156,74 @@ var data = {
   ],
   education: [
     {
-      title: "Udacity Machine Learning Nanodegree",
-      period: "2017.3 - 2017.10",
-      description: "MOOC 중 하나로 Udacity에서 머신러닝 코스를 수료",
+      title: "Udacity: 보스톤 집값 예측하기",
+      period: "2017.3 - 2017.4",
+      description:
+        "보스톤 집값 데이터를 기반으로 머신러닝 기술을 활용하여 주어진 집에 대한 집값을 예측",
       image: [],
       bullet: [
-        "Chapter별 프로젝트 및 Capstone프로젝트를 멘토의 지도하에 진행",
-
         <a href="https://github.com/Sangkwun/boston_housing/blob/master/boston_housing.ipynb">
-          Machine Learning Foundation: Predicting Boston Housing Prices
-        </a>,
-
+          Predicting Boston Housing Prices with Machine learning
+        </a>
+      ]
+    },
+    {
+      title: "Udacity: 지도학습을 통해 기부자를 찾기 위한 개인 수입 분석",
+      period: "2017.5 - 2017.6",
+      description:
+        "두가지 클래스로 사람의 수입에대해 분석하여 일정 수입의 이상인 경우에 기부 홍보 메일을 보내도록 판단",
+      image: [],
+      bullet: [
         <a href="https://github.com/Sangkwun/finding_donors/blob/master/finding_donors.ipynb">
-          Supervised Learning : Finding donors for CharityML
-        </a>,
-
-        <a href="https://github.com/Sangkwun/customer_segments/blob/master/customer_segments.ipynb">
-          Unsupervised Learing : Creating Customer Segments
-        </a>,
-
+          Finding donors for CharityML
+        </a>
+      ]
+    },
+    {
+      title: "Udacity: 비지도학습을 이용한 고객군 분류하기",
+      period: "2017.7 - 2017.8",
+      description:
+        "고객군을 분석하여 새로운 정책을 적용할 경우 적합한 고객군을 도출함",
+      image: [],
+      bullet: [
+        < a href = "https://github.com/Sangkwun/customer_segments/blob/master/customer_segments.ipynb" >
+          Creating Customer Segments with Unsupervised machine learning
+        </a>
+      ]
+    },
+    {
+      title: "Udacity: 강화학습을 통해 스마트택시 만들기",
+      period: "2017.8 - 2017.9",
+      description:
+        "교통신호 체계를 Q-Learning을 통해서 학습",
+      image: [],
+      bullet: [
         <a href="https://github.com/Sangkwun/smartcab">
-          Reinforcement Learning : Train a Smartcab to Drive
-        </a>,
-
+          Train a Smartcab to Drive with Reinforcement Learning
+        </a>
+      ]
+    },
+    {
+      title: "Udacity: 딥러닝을 이용한 견종 분류하기",
+      period: "2017.9 - 2017.10",
+      description:
+        "얼굴을 감지하여 사람인지 개인지 구분한 후 얼굴을 어떤 견종인지 분류",
+      image: [],
+      bullet: [
         <a href="https://github.com/Sangkwun/dog_breed/blob/master/dog_app.ipynb">
           Deep Learning : Dog Breed Classifier
-        </a>,
-
+        </a>
+      ]
+    },
+    {
+      title: "Udacity: 머신러닝을 이용한 매장 판매량 예측",
+      period: "2017.11 - 2017.12",
+      description:
+        "에콰도르의 favorita체인점의 데이터를 분석하여 매장의 판매량을 예측",
+      image: [],
+      bullet: [
         <a href="https://drive.google.com/file/d/1MGNa3aePvLgWKybcal1IMoREtPX6pEfR/view?usp=sharing">
-          Capstone Project : Sales forecasting by Machine learning
+          Capstone Project : Sales forecasting with Machine learning
         </a>
       ]
     },

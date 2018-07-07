@@ -152,35 +152,74 @@ var data = {
   ],
   education: [
     {
-      title: "Udacity Machine Learning Nanodegree",
-      period: "2017.3 - 2017.10",
-      description: "Finished Udacity Machine learning nanodegree course",
+      title: "Udacity: Predicting Boston Housing Prices with Machine learning",
+      period: "2017.3 - 2017.4",
+      description:
+        "Predict house price with machine learning technique trained with boston house price dataset",
       image: [],
       bullet: [
-        "Each projects on chapter are conducted with instuction of mentors",
-
         <a href="https://github.com/Sangkwun/boston_housing/blob/master/boston_housing.ipynb">
-          Machine Learning Foundation: Predicting Boston Housing Prices
-        </a>,
-
+          Predicting Boston Housing Prices with Machine learning
+        </a>
+      ]
+    },
+    {
+      title: "Udacity: Finding donors for CharityML with Supervised machine learning",
+      period: "2017.5 - 2017.6",
+      description:
+        "Binary classification which is about donor with income dataset",
+      image: [],
+      bullet: [
         <a href="https://github.com/Sangkwun/finding_donors/blob/master/finding_donors.ipynb">
-          Supervised Learning : Finding donors for CharityML
-        </a>,
-
-        <a href="https://github.com/Sangkwun/customer_segments/blob/master/customer_segments.ipynb">
-          Unsupervised Learing : Creating Customer Segments
-        </a>,
-
+          Finding donors for CharityML
+        </a>
+      ]
+    },
+    {
+      title: "Udacity: Creating Customer Segments with Unsupervised machine learning",
+      period: "2017.7 - 2017.8",
+      description:
+        "Clustering customer segment to apply new policy to customer",
+      image: [],
+      bullet: [
+        < a href = "https://github.com/Sangkwun/customer_segments/blob/master/customer_segments.ipynb" >
+          Creating Customer Segments with Unsupervised machine learning
+        </a>
+      ]
+    },
+    {
+      title: "Udacity: Train a Smartcab to Drive with Reinforcement Learning",
+      period: "2017.8 - 2017.9",
+      description:
+        "Learn traffic regulation and situation with Q-learning",
+      image: [],
+      bullet: [
         <a href="https://github.com/Sangkwun/smartcab">
-          Reinforcement Learning : Train a Smartcab to Drive
-        </a>,
-
+          Train a Smartcab to Drive with Reinforcement Learning
+        </a>
+      ]
+    },
+    {
+      title: "Udacity:Deep learning: Dog Breed Classifier",
+      period: "2017.9 - 2017.10",
+      description:
+        "Detect face and inference human or dog then classify breed with transfer learning",
+      image: [],
+      bullet: [
         <a href="https://github.com/Sangkwun/dog_breed/blob/master/dog_app.ipynb">
           Deep Learning : Dog Breed Classifier
-        </a>,
-
+        </a>
+      ]
+    },
+    {
+      title: "Udacity: Sales forecasting with Machine learning",
+      period: "2017.11 - 2017.12",
+      description:
+        "Sales forecasting of Corporacion favorita with machine learning",
+      image: [],
+      bullet: [
         <a href="https://drive.google.com/file/d/1MGNa3aePvLgWKybcal1IMoREtPX6pEfR/view?usp=sharing">
-          Capstone Project : Sales forecasting by Machine learning
+          Capstone Project : Sales forecasting with Machine learning
         </a>
       ]
     },
