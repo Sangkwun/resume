@@ -41,7 +41,7 @@ const English = (props) => {
   return <div className={styles.container}>
       <Personal changeLang={props.changeLang} lang={props.lang} />
       <Category title="Experience" data={data_eng.experience} />
-      <Category title="Others" data={data_eng.side} />
+      <Category title="Personal" data={data_eng.side} />
       <Category title="Education" data={data_eng.education} />
     </div>;
 }
@@ -49,7 +49,7 @@ const Korean = (props) => {
   return <div className={styles.container}>
       <Personal changeLang={props.changeLang} lang={props.lang} />
       <Category title="Experience" data={data.experience} />
-      <Category title="Others" data={data.side} />
+      <Category title="Personal" data={data.side} />
       <Category title="Education" data={data.education} />
     </div>;
 }
