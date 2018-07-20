@@ -152,50 +152,14 @@ var data = {
   ],
   education: [
     {
-      title: "Udacity: Predicting Boston Housing Prices with Machine learning",
-      period: "2017.3 - 2017.4",
+      title: "Udacity: Sales forecasting with Machine learning",
+      period: "2017.11 - 2017.12",
       description:
-        "Predict house price with machine learning technique trained with boston house price dataset",
+        "Sales forecasting of Corporacion favorita with machine learning",
       image: [],
       bullet: [
-        <a href="https://github.com/Sangkwun/boston_housing/blob/master/boston_housing.ipynb">
-          Predicting Boston Housing Prices with Machine learning
-        </a>
-      ]
-    },
-    {
-      title: "Udacity: Finding donors for CharityML with Supervised machine learning",
-      period: "2017.5 - 2017.6",
-      description:
-        "Binary classification which is about donor with income dataset",
-      image: [],
-      bullet: [
-        <a href="https://github.com/Sangkwun/finding_donors/blob/master/finding_donors.ipynb">
-          Finding donors for CharityML
-        </a>
-      ]
-    },
-    {
-      title: "Udacity: Creating Customer Segments with Unsupervised machine learning",
-      period: "2017.7 - 2017.8",
-      description:
-        "Clustering customer segment to apply new policy to customer",
-      image: [],
-      bullet: [
-        < a href = "https://github.com/Sangkwun/customer_segments/blob/master/customer_segments.ipynb" >
-          Creating Customer Segments with Unsupervised machine learning
-        </a>
-      ]
-    },
-    {
-      title: "Udacity: Train a Smartcab to Drive with Reinforcement Learning",
-      period: "2017.8 - 2017.9",
-      description:
-        "Learn traffic regulation and situation with Q-learning",
-      image: [],
-      bullet: [
-        <a href="https://github.com/Sangkwun/smartcab">
-          Train a Smartcab to Drive with Reinforcement Learning
+        <a href="https://drive.google.com/file/d/1MGNa3aePvLgWKybcal1IMoREtPX6pEfR/view?usp=sharing">
+          Capstone Project : Sales forecasting with Machine learning
         </a>
       ]
     },
@@ -212,14 +176,50 @@ var data = {
       ]
     },
     {
-      title: "Udacity: Sales forecasting with Machine learning",
-      period: "2017.11 - 2017.12",
+      title: "Udacity: Train a Smartcab to Drive with Reinforcement Learning",
+      period: "2017.8 - 2017.9",
       description:
-        "Sales forecasting of Corporacion favorita with machine learning",
+        "Learn traffic regulation and situation with Q-learning",
       image: [],
       bullet: [
-        <a href="https://drive.google.com/file/d/1MGNa3aePvLgWKybcal1IMoREtPX6pEfR/view?usp=sharing">
-          Capstone Project : Sales forecasting with Machine learning
+        <a href="https://github.com/Sangkwun/smartcab">
+          Train a Smartcab to Drive with Reinforcement Learning
+        </a>
+      ]
+    },
+    {
+      title: "Udacity: Creating Customer Segments with Unsupervised machine learning",
+      period: "2017.7 - 2017.8",
+      description:
+        "Clustering customer segment to apply new policy to customer",
+      image: [],
+      bullet: [
+        < a href = "https://github.com/Sangkwun/customer_segments/blob/master/customer_segments.ipynb" >
+          Creating Customer Segments with Unsupervised machine learning
+        </a>
+      ]
+    },
+    {
+      title: "Udacity: Finding donors for CharityML with Supervised machine learning",
+      period: "2017.5 - 2017.6",
+      description:
+        "Binary classification which is about donor with income dataset",
+      image: [],
+      bullet: [
+        <a href="https://github.com/Sangkwun/finding_donors/blob/master/finding_donors.ipynb">
+          Finding donors for CharityML
+        </a>
+      ]
+    },
+    {
+      title: "Udacity: Predicting Boston Housing Prices with Machine learning",
+      period: "2017.3 - 2017.4",
+      description:
+        "Predict house price with machine learning technique trained with boston house price dataset",
+      image: [],
+      bullet: [
+        <a href="https://github.com/Sangkwun/boston_housing/blob/master/boston_housing.ipynb">
+          Predicting Boston Housing Prices with Machine learning
         </a>
       ]
     },

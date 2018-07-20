@@ -156,50 +156,14 @@ var data = {
   ],
   education: [
     {
-      title: "Udacity: 보스톤 집값 예측하기",
-      period: "2017.3 - 2017.4",
+      title: "Udacity: 머신러닝을 이용한 매장 판매량 예측",
+      period: "2017.11 - 2017.12",
       description:
-        "보스톤 집값 데이터를 기반으로 머신러닝 기술을 활용하여 주어진 집에 대한 집값을 예측",
+        "에콰도르의 favorita체인점의 데이터를 분석하여 매장의 판매량을 예측",
       image: [],
       bullet: [
-        <a href="https://github.com/Sangkwun/boston_housing/blob/master/boston_housing.ipynb">
-          Predicting Boston Housing Prices with Machine learning
-        </a>
-      ]
-    },
-    {
-      title: "Udacity: 지도학습을 통해 기부자를 찾기 위한 개인 수입 분석",
-      period: "2017.5 - 2017.6",
-      description:
-        "두가지 클래스로 사람의 수입에대해 분석하여 일정 수입의 이상인 경우에 기부 홍보 메일을 보내도록 판단",
-      image: [],
-      bullet: [
-        <a href="https://github.com/Sangkwun/finding_donors/blob/master/finding_donors.ipynb">
-          Finding donors for CharityML
-        </a>
-      ]
-    },
-    {
-      title: "Udacity: 비지도학습을 이용한 고객군 분류하기",
-      period: "2017.7 - 2017.8",
-      description:
-        "고객군을 분석하여 새로운 정책을 적용할 경우 적합한 고객군을 도출함",
-      image: [],
-      bullet: [
-        < a href = "https://github.com/Sangkwun/customer_segments/blob/master/customer_segments.ipynb" >
-          Creating Customer Segments with Unsupervised machine learning
-        </a>
-      ]
-    },
-    {
-      title: "Udacity: 강화학습을 통해 스마트택시 만들기",
-      period: "2017.8 - 2017.9",
-      description:
-        "교통신호 체계를 Q-Learning을 통해서 학습",
-      image: [],
-      bullet: [
-        <a href="https://github.com/Sangkwun/smartcab">
-          Train a Smartcab to Drive with Reinforcement Learning
+        <a href="https://drive.google.com/file/d/1MGNa3aePvLgWKybcal1IMoREtPX6pEfR/view?usp=sharing">
+          Capstone Project : Sales forecasting with Machine learning
         </a>
       ]
     },
@@ -216,14 +180,50 @@ var data = {
       ]
     },
     {
-      title: "Udacity: 머신러닝을 이용한 매장 판매량 예측",
-      period: "2017.11 - 2017.12",
+      title: "Udacity: 강화학습을 통해 스마트택시 만들기",
+      period: "2017.8 - 2017.9",
       description:
-        "에콰도르의 favorita체인점의 데이터를 분석하여 매장의 판매량을 예측",
+        "교통신호 체계를 Q-Learning을 통해서 학습",
       image: [],
       bullet: [
-        <a href="https://drive.google.com/file/d/1MGNa3aePvLgWKybcal1IMoREtPX6pEfR/view?usp=sharing">
-          Capstone Project : Sales forecasting with Machine learning
+        <a href="https://github.com/Sangkwun/smartcab">
+          Train a Smartcab to Drive with Reinforcement Learning
+        </a>
+      ]
+    },
+    {
+      title: "Udacity: 비지도학습을 이용한 고객군 분류하기",
+      period: "2017.7 - 2017.8",
+      description:
+        "고객군을 분석하여 새로운 정책을 적용할 경우 적합한 고객군을 도출함",
+      image: [],
+      bullet: [
+        < a href = "https://github.com/Sangkwun/customer_segments/blob/master/customer_segments.ipynb" >
+          Creating Customer Segments with Unsupervised machine learning
+        </a>
+      ]
+    },
+    {
+      title: "Udacity: 지도학습을 통해 기부자를 찾기 위한 개인 수입 분석",
+      period: "2017.5 - 2017.6",
+      description:
+        "두가지 클래스로 사람의 수입에대해 분석하여 일정 수입의 이상인 경우에 기부 홍보 메일을 보내도록 판단",
+      image: [],
+      bullet: [
+        <a href="https://github.com/Sangkwun/finding_donors/blob/master/finding_donors.ipynb">
+          Finding donors for CharityML
+        </a>
+      ]
+    },
+    {
+      title: "Udacity: 보스톤 집값 예측하기",
+      period: "2017.3 - 2017.4",
+      description:
+        "보스톤 집값 데이터를 기반으로 머신러닝 기술을 활용하여 주어진 집에 대한 집값을 예측",
+      image: [],
+      bullet: [
+        <a href="https://github.com/Sangkwun/boston_housing/blob/master/boston_housing.ipynb">
+          Predicting Boston Housing Prices with Machine learning
         </a>
       ]
     },
