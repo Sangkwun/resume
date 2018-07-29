@@ -43,7 +43,8 @@ var data = {
       image: [require("./images/4.jpeg"), require("./images/brake.gif")],
       bullet: [
         "HILS(Hardware in loop system) 시뮬레이션 장비 설계",
-        "국내, 중국 차종 설계 / 기술개발 프로젝트 PM"
+        "국내, 중국 차종 설계",
+        "기술개발 프로젝트 PM"
       ]
     },
     {
@@ -97,6 +98,7 @@ var data = {
       period: "2018.07 - 2018.08",
       description: "Short connection의 Residual block의 유무의 효과를 비교",
       image: [
+        require("./images/resnet.png"),
         require("./images/training.png"),
         require("./images/validating.png")
       ],
@@ -110,7 +112,10 @@ var data = {
       title: "Tensorflow로 구현한 Alexnet과 Flower classification",
       period: "2018.06 - 2018.07",
       description: "Deep network의 시초격인 Alexnet을 tensorflow로 구현",
-      image: [require("./images/flower.jpg")],
+      image: [
+        require("./images/alexnet.jpeg"),
+        require("./images/flower.jpg")
+      ],
       bullet: [
         "Kaggle의 flower recognition dataset을 학습 및 테스트를 진행해봄.",
         "5가지 종류의 꽃(chamomile, tulip, rose, sunflower, dandelion)을 분류",
