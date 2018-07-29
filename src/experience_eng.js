@@ -91,6 +91,18 @@ var data = {
   ],
   side: [
     {
+      title: "Alexnet with Tensorflow",
+      period: "2018.06",
+      description:
+        "Make Alexnetwork which is start of Deep network with tensorflow",
+      image: [require("./images/caffe1.gif"), require("./images/caffe2.png")],
+      bullet: [
+        "Train and Test with flower recognition data in Kaggle",
+        "Classify 5 kinds of flowers like chamomile, tulip, rose, sunflower, dandelion",
+        <a href="https://github.com/Sangkwun/Alexnet">Link to Github</a>
+      ]
+    },
+    {
       title: "Caffe curation by image",
       period: "2018.03",
       description:

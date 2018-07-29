@@ -9,7 +9,7 @@ var data = {
         "Obejct detection 및 pedestrian attribute 모델, IoT Digital Signage 개발",
       image: [],
       bullet: [
-        "Computer vision: openCV, YOLO, Inception 등을 활용하여 사람을 감지하고 나이와 성별을 추출해냄",
+        "Computer vision: OpenCV, Yolo, Inception 등을 활용하여 사람을 감지하고 나이와 성별을 추출해냄",
         "Oowa Signage: AWS IoT를 활용한 디지털사이니지 개발"
       ]
     },
@@ -25,7 +25,7 @@ var data = {
     },
     {
       title: "구일도시: 문학자판기 제품 개발",
-      period: "2017.7 - 2017.9",
+      period: "2017.07 - 2017.09",
       description:
         "Raspberry pi를 이용 열전사 프린터를 컨트롤 하여 영수증에 문학을 프린트해주는 자판기 개발, 국제 도서전 등에서 화제가 됬으며 현재 용인 및 경전철역사에 설치됨. ",
       image: [require("./images/vending.gif"), require("./images/thermal.jpg")],
@@ -37,7 +37,7 @@ var data = {
     },
     {
       title: "현대자동차: Brake Engineer",
-      period: " 2016.2 - 2017.8",
+      period: " 2016.02 - 2017.08",
       description:
         "상용차 공압브레이크의 제어 및 설계.기술개발 프로젝트 진행 경험 및 제동 관련 시뮬레이션을 Visual Basic으로 제작하여 활용",
       image: [require("./images/4.jpeg"), require("./images/brake.gif")],
@@ -59,7 +59,7 @@ var data = {
     },
     {
       title: "MakingSoda: BigD 개발",
-      period: "2014.12 - 2015.9",
+      period: "2014.12 - 2015.09",
       description:
         "도안을 넣어주면 그려주는 로봇인 BigD의 알고리즘 개발 및 하드웨어 설계. 초기의 K-startup 본선 진출",
       image: [require("./images/bigd2.gif"), require("./images/bigd4.png")],
@@ -70,7 +70,7 @@ var data = {
     },
     {
       title: "Microfluidics & NanoMechatronics LAB: Micro Fluid Pump 개발",
-      period: "2014.12 - 2015.8",
+      period: "2014.12 - 2015.08",
       description:
         "Braile을 기반으로 Piezo Actuator를 활용 Micro fluid를 제어할 수 있는 소형 펌프 제작하여 C# 기반 제어프로그램 제작",
       image: [require("./images/pump1.png"), require("./images/pump2.png")],
@@ -81,7 +81,7 @@ var data = {
     },
     {
       title: "U-CIM LAB Intern: 화재 대피 시뮬레이션 개발",
-      period: "2014.6 - 2014.8",
+      period: "2014.06 - 2014.08",
       description:
         "시뮬레이션 프로그램인 Anylogic(JAVA)과 Unity(C#)을 연동하여 Human in Loop 시뮬레이션 시스템을 개발. 화재대피상황의 시뮬레이션에 사람을 개입시켜 데이터를 얻어냄.",
       image: [require("./images/fire1.png"), require("./images/fire2.png")],
@@ -93,8 +93,33 @@ var data = {
   ],
   side: [
     {
+      title: "Keras로 구현한 Resnet",
+      period: "2018.07 - 2018.08",
+      description: "Short connection의 Residual block의 유무의 효과를 비교",
+      image: [
+        require("./images/training.png"),
+        require("./images/validating.png")
+      ],
+      bullet: [
+        "Short connection의 Residual block의 효과를 cifar-10을 통해서 비교",
+        "Orange line: with short connection, Blue line: without short connection",
+        <a href="https://github.com/Sangkwun/Resnet">Link to Github</a>
+      ]
+    },
+    {
+      title: "Tensorflow로 구현한 Alexnet과 Flower classification",
+      period: "2018.06 - 2018.07",
+      description: "Deep network의 시초격인 Alexnet을 tensorflow로 구현",
+      image: [require("./images/flower.jpg")],
+      bullet: [
+        "Kaggle의 flower recognition dataset을 학습 및 테스트를 진행해봄.",
+        "5가지 종류의 꽃(chamomile, tulip, rose, sunflower, dandelion)을 분류",
+        <a href="https://github.com/Sangkwun/Alexnet">Link to Github</a>
+      ]
+    },
+    {
       title: "이미지를 통한 카페 추천",
-      period: "2018.03",
+      period: "2018.03 - 2018.04",
       description:
         "CNN을 기반으로 Transition Learning을 통해 Classification을 하는 카페 추천 시스템 구현",
       image: [require("./images/caffe1.gif"), require("./images/caffe2.png")],
@@ -107,7 +132,7 @@ var data = {
     },
     {
       title: "Instgram clone coding",
-      period: "2018.1",
+      period: "2018.01 - 2018.02",
       description: "Django & React 기반으로 Instagram 클로닝",
       image: [require("./images/insta1.gif"), require("./images/insta2.png")],
       bullet: [
@@ -145,7 +170,7 @@ var data = {
     },
     {
       title: "언양 매대 디자인 및 제작",
-      period: "2015.3 - 2015.7",
+      period: "2015.03 - 2015.07",
       description:
         "접이식 매대 디자인 고안 및 제작 후 언양 시장 리디자인 프로젝트참여",
       image: [require("./images/table.png"), require("./images/table1.png")],
@@ -160,7 +185,7 @@ var data = {
       period: "2017.11 - 2017.12",
       description:
         "에콰도르의 favorita체인점의 데이터를 분석하여 매장의 판매량을 예측",
-      image: [],
+      image: [require("./images/ud_capstone_1.png"), require("./images/ud_capstone_2.png")],
       bullet: [
         <a href="https://drive.google.com/file/d/1MGNa3aePvLgWKybcal1IMoREtPX6pEfR/view?usp=sharing">
           Capstone Project : Sales forecasting with Machine learning
@@ -169,10 +194,10 @@ var data = {
     },
     {
       title: "Udacity: 딥러닝을 이용한 견종 분류하기",
-      period: "2017.9 - 2017.10",
+      period: "2017.09 - 2017.10",
       description:
         "얼굴을 감지하여 사람인지 개인지 구분한 후 얼굴을 어떤 견종인지 분류",
-      image: [],
+      image: [require("./images/dog.jpg")],
       bullet: [
         <a href="https://github.com/Sangkwun/dog_breed/blob/master/dog_app.ipynb">
           Deep Learning : Dog Breed Classifier
@@ -181,10 +206,9 @@ var data = {
     },
     {
       title: "Udacity: 강화학습을 통해 스마트택시 만들기",
-      period: "2017.8 - 2017.9",
-      description:
-        "교통신호 체계를 Q-Learning을 통해서 학습",
-      image: [],
+      period: "2017.08 - 2017.09",
+      description: "교통신호 체계를 Q-Learning을 통해서 학습",
+      image: [require("./images/smartcab1.png"), require("./images/smartcab2.png")],
       bullet: [
         <a href="https://github.com/Sangkwun/smartcab">
           Train a Smartcab to Drive with Reinforcement Learning
@@ -193,22 +217,22 @@ var data = {
     },
     {
       title: "Udacity: 비지도학습을 이용한 고객군 분류하기",
-      period: "2017.7 - 2017.8",
+      period: "2017.07 - 2017.08",
       description:
         "고객군을 분석하여 새로운 정책을 적용할 경우 적합한 고객군을 도출함",
-      image: [],
+      image: [require("./images/clust1.png"), require("./images/clust2.png")],
       bullet: [
-        < a href = "https://github.com/Sangkwun/customer_segments/blob/master/customer_segments.ipynb" >
+        <a href="https://github.com/Sangkwun/customer_segments/blob/master/customer_segments.ipynb">
           Creating Customer Segments with Unsupervised machine learning
         </a>
       ]
     },
     {
       title: "Udacity: 지도학습을 통해 기부자를 찾기 위한 개인 수입 분석",
-      period: "2017.5 - 2017.6",
+      period: "2017.05 - 2017.06",
       description:
         "두가지 클래스로 사람의 수입에대해 분석하여 일정 수입의 이상인 경우에 기부 홍보 메일을 보내도록 판단",
-      image: [],
+      image: [require("./images/donor1.png"), require("./images/donor2.png")],
       bullet: [
         <a href="https://github.com/Sangkwun/finding_donors/blob/master/finding_donors.ipynb">
           Finding donors for CharityML
@@ -217,7 +241,7 @@ var data = {
     },
     {
       title: "Udacity: 보스톤 집값 예측하기",
-      period: "2017.3 - 2017.4",
+      period: "2017.03 - 2017.04",
       description:
         "보스톤 집값 데이터를 기반으로 머신러닝 기술을 활용하여 주어진 집에 대한 집값을 예측",
       image: [],
@@ -229,7 +253,7 @@ var data = {
     },
     {
       title: "UNIST 기계및신소재공학부 졸업",
-      period: "2010.3 - 2016.2",
+      period: "2010.03 - 2016.02",
       description: "UNIST 이공계 특성화 대학교",
       image: [],
       bullet: [
