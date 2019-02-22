@@ -3,6 +3,16 @@ import React from 'react';
 var data = {
   experience: [
     {
+      title: "Knowru: Backend developer",
+      period: "2018.05 - 2018.08",
+      description: "Obejct detection 및 pedestrian attribute 모델, IoT Digital Signage 개발",
+      image: [],
+      bullet: [
+        "Computer vision: Extract gender and age data from video with OpenCV, Yolo, Inception",
+        "Oowa Signage: Develop digital signage with AWS IoT"
+      ]
+    },
+    {
       title: "Instead: 'Asking Pay' Planning and Development",
       period: "2017.09 - present",
       description:
@@ -91,28 +101,42 @@ var data = {
   ],
   side: [
     {
-      title: "Alexnet with Tensorflow",
-      period: "2018.06",
-      description:
-        "Make Alexnetwork which is start of Deep network with tensorflow",
-      image: [require("./images/caffe1.gif"), require("./images/caffe2.png")],
+      title: "Implementation Resnet with Keras",
+      period: "2018.07 - 2018.08",
+      description: "Short connection의 Residual block의 유무의 효과를 비교",
+      image: [
+        require("./images/resnet.png"),
+        require("./images/training.png"),
+        require("./images/validating.png")
+      ],
       bullet: [
-        "Train and Test with flower recognition data in Kaggle",
-        "Classify 5 kinds of flowers like chamomile, tulip, rose, sunflower, dandelion",
+        "Check effect of short connection in residual block by cifar-10",
+        "Orange line: with short connection, Blue line: without short connection",
+        <a href="https://github.com/Sangkwun/Resnet">Link to Github</a>
+      ]
+    },
+    {
+      title: "Implementation of Alexnet with Tensorflow for flower classification",
+      period: "2018.06 - 2018.07",
+      description: "Build Alexnet which is father of deep network with tensorflow",
+      image: [
+        require("./images/alexnet.jpeg"),
+        require("./images/flower.jpg")
+      ],
+      bullet: [
+        "Tested on flower recognition dataset in Kaggle.",
+        "classification about 5 kinds of flowers(chamomile, tulip, rose, sunflower, dandelion)",
         <a href="https://github.com/Sangkwun/Alexnet">Link to Github</a>
       ]
     },
     {
-      title: "Caffe curation by image",
-      period: "2018.03",
-      description:
-        "Developed Caffe suggestion system based on CNN by trasition learning",
-      image: [require("./images/caffe1.gif"), require("./images/caffe2.png")],
+      title: "Instgram clone coding",
+      period: "2018.1",
+      description: "Cloning instagram based on Django & React",
+      image: [require("./images/insta1.gif"), require("./images/insta2.png")],
       bullet: [
-        "Gathered 22000 images about 20 caffe nearby Gangnam by crawlling instagram then filtered food, people",
-        "transition learned model which based on VGG-19 model classify image then return highest possibility caffe with data",
-        "Used Keras and Django in backend and ReactJS is used in Frontend",
-        <a href="https://github.com/Sangkwun/caffe_concierge">Link to Github</a>
+        "Developed login, social login, comment , post, follow function by cloing.",
+        "Based on Django, React"
       ]
     },
     {
