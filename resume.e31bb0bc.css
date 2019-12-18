@@ -1,0 +1,257 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v3.0 | 20180413
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+	display: block;
+}
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+    display: none;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+._container_3b76c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  padding: 10px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+@media (min-width: 320px) and (max-width: 450px) {
+  ._container_3b76c {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding: 10px;
+  }
+}
+._container_3b76c ._box_3b76c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  margin-top: 50px;
+  padding: 5px;
+}
+@media (min-width: 320px) and (max-width: 450px) {
+  ._container_3b76c ._box_3b76c {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+}
+._container_3b76c ._box_3b76c ._title_3b76c {
+  font-size: 20px;
+  font-weight: bold;
+}
+._container_3b76c ._box_3b76c ._content_3b76c {
+  margin-top: 10px;
+}
+._container_3b76c ._box_3b76c ._content_3b76c ._row_3b76c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5px;
+  font-size: 12px;
+}
+._container_3b76c ._box_3b76c ._content_3b76c ._row_3b76c ._icon_3b76c {
+  margin-right: 5px;
+}
+._container_3b76c ._box_3b76c ._split_3b76c {
+  margin-left: auto;
+}
+._container_3b76c ._box_3b76c ._split_3b76c ._lang_3b76c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  font-size: 12px;
+}
+._container_3b76c ._box_3b76c ._split_3b76c ._lang_3b76c span {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+._container_3b76c ._box_3b76c ._split_3b76c ._lang_3b76c span :last-child {
+  margin-right: 0px;
+}
+._container_3b76c ._category_3b76c {
+  border-top: 1px solid lightgray;
+  padding-top: 20px;
+  margin-top: 50px;
+  font-size: 20px;
+  color: orange;
+}
+._container_3b76c ._row_3b76c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  margin-top: 20px;
+}
+._container_3b76c ._row_3b76c ._content_3b76c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 90%;
+}
+._container_3b76c ._row_3b76c ._content_3b76c ._title_3b76c {
+  margin-right: 10px;
+  font-size: 15px;
+}
+._container_3b76c ._row_3b76c ._content_3b76c ._period_3b76c {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 5px;
+}
+._container_3b76c ._row_3b76c ._content_3b76c ._description_3b76c {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+._container_3b76c ._row_3b76c ._expand_3b76c {
+  margin-left: auto;
+}
+._container_3b76c ._imageBox_3b76c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top: orange solid 2px;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 320px) and (max-width: 450px) {
+  ._container_3b76c ._imageBox_3b76c {
+    width: 80%;
+    padding: 10px;
+  }
+}
+._container_3b76c ._imageBox_3b76c ._images_3b76c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+._container_3b76c ._imageBox_3b76c ._images_3b76c ._image_3b76c {
+  width: 400px;
+  margin-top: 20px;
+}
+@media (min-width: 320px) and (max-width: 450px) {
+  ._container_3b76c ._imageBox_3b76c ._images_3b76c ._image_3b76c {
+    width: 300px;
+  }
+}
+._container_3b76c ._bulletBox_3b76c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+._container_3b76c ._bulletBox_3b76c ._bullet_3b76c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+a:link {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=/resume.e31bb0bc.css.map */
