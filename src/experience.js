@@ -3,8 +3,21 @@ import React from 'react';
 var data = {
   experience: [
     {
+      title: "Lomin: 딥러닝 엔지니어",
+      period: "2018.08 - present",
+      description:
+        "딥러닝 모델 연구개발 및 딥러닝 엔진 서빙을 위한 서버, 웹 구축 및 최저화",
+      image: [
+      ],
+      bullet: [
+        <a href="http://faceforensic.lomin.ai">합성사진 판별 모델 개발 및 웹데모 구축</a>,
+        <a href="http://lomin.ai/deidentify">얼굴 및 번호판 탐지 및 비식별화 솔루션 개발</a>,
+        <a href="https://www.youtube.com/watch?v=rRa0f34ssNM&feature=youtu.be">"2019 AI Grand 챌린지 문자인식 트랙 1위 수상"</a>,
+      ]
+    },
+    {
       title: "Knowru: 백엔드 엔지니어",
-      period: "2018.05 - present",
+      period: "2018.05 - 2018.07",
       description:
         "Obejct detection 및 pedestrian attribute 모델, IoT Digital Signage 개발",
       image: [],
@@ -94,8 +107,25 @@ var data = {
   ],
   side: [
     {
+      title: "Kaggle study 및 Competition Expert 달성",
+      periodd: "2019.06 - 2019.08",
+      description: "iMet collection, Free sound audio tagging 등의 메달획득을 통해 Competition Expert달성(Highest Rank 2005)",
+      bullet: [
+        <a href="https://www.kaggle.com/sankwun">Kaggle Profile</a>
+      ]
+    },
+    {
+      title: "Face landmark detection을 통한 웃음 참기",
+      period: "2019.02 - 2019.03",
+      description: "js기반 모델 inference 및 입의 랜드마크를 기반으로 웃음 감지",
+      bullet: [
+        <a href="https://github.com/tensorflow/tfjs/pull/1182">Tensorflow.js를 사용한 프로젝트로 등록되어 Contribute</a>,
+        <a href="http://trynottolaugh.net/">Try not to laugh 웹사이트</a>
+      ]
+    },
+    {
       title: "Keras로 구현한 Resnet",
-      period: "2018.07 - 2018.08",
+      period: "2019.07 - 2019.08",
       description: "Short connection의 Residual block의 유무의 효과를 비교",
       image: [
         require("./images/resnet.png"),
